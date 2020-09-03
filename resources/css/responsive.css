@@ -1,0 +1,267 @@
+@media (max-width: 1307px) {
+    .about-inner-content {
+        text-align: justify;
+    }
+}
+
+@media (max-width: 1199px) {
+    nav > .container-fluid {
+        padding: 0 20px;
+    }
+}
+
+@media (max-width: 1063px) {
+    #header-nav ul li {
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 994px) {
+
+    nav > .container-fluid {
+        margin-left: 5px;
+    }
+
+    #header-nav ul li {
+        margin-left: 5px;
+    }
+}
+
+@media (max-width: 930px) {
+    nav {
+        background: rgba(0, 0, 0, 0.7);
+        padding: 10px 0 !important;
+    }
+
+    .navbar-nav {
+        margin-top: 10px
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .testimonial blockqoute::before {
+        top: 45%;
+    }
+
+    .testimonial blockqoute::after {
+        bottom: 28%;
+    }
+}
+
+@media (max-width: 991px) {
+    .about-bg-diagonal {
+        width: 100%;
+        border: 0;
+        height: 350px;
+        display: block;
+    }
+
+    .about-content-box::before {
+        content: "";
+        height: ;
+        display: block;
+    }
+
+    .about-content-box {
+        display: block;
+        width: 100%;
+        padding-top: 30px;
+        height: 300px;
+    }
+
+    .about-outer-content {
+        display: block;
+    }
+
+    .about-inner-content {
+        display: inline-block;
+        width: 450px;
+    }
+
+    .pricing-box {
+        margin-top: 40px;
+    }
+    
+     #footer-menu {
+        display: none;
+    }
+    
+     .contact-right {
+        padding-top: 20px;
+    }
+
+    .copyright {
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .testimonial blockqoute::before {
+        top: 42%;
+    }
+
+    .testimonial blockqoute::after {
+        bottom: 26%;
+    }
+
+   
+
+    .footer-nav > container {
+        padding: 0;
+        margin: 0;
+    }
+    
+    .home-heading h3 {
+        font-size: 50px
+    }
+
+}
+
+@media(max-width: 875px) {
+    nav > .container-fluid {
+        padding: 0 20px;
+    }
+    
+    .home-heading h3 {
+        font-size: 45px
+    }
+}
+
+@media(max-width: 767px) {
+
+    nav > .container-fluid {
+
+        padding: 0 20px !important;
+    }
+
+    .stats-item {
+        padding: 20px 0;
+    }
+
+
+    .home-heading h3 {
+        font-size: 35px;
+    }
+
+    .btn-general {
+        padding: 10px 22px !important;
+        font-size: 14px !important;
+    }
+
+    .testimonial blockqoute p {
+        font-size: 16px;
+    }
+
+    #contact {
+        padding: 20px !important;
+    }
+    #team {
+        
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .testimonial blockqoute::before {
+        top: 38%;
+    }
+
+    .testimonial blockqoute::after {
+        bottom: 24%;
+        right: -10px;
+    }
+     
+    
+}
+
+@media (max-width: 575px) {
+    .testimonial blockqoute::before {
+        top: 38%;
+    }
+
+    .testimonial blockqoute::after {
+        bottom: 24%;
+    }
+
+    .home-heading h3 {
+        font-size: 30px;
+    }
+    
+    section{
+        margin-top: -20px !important;
+    }
+    
+    #team {
+        margin-top: -60px !important;
+    }
+}
+
+
+
+@media (max-width: 480px) {
+
+    .img-wrapper {
+        width: 100%;
+    }
+
+    body {
+        width: 100%;
+    }
+
+    .content-title h3 {
+        font-size: 170%;
+    }
+
+
+    .testimonial blockqoute::before {
+        top: 35%;
+    }
+
+    .testimonial blockqoute::after {
+        bottom: 22%;
+
+    }
+
+    .home-heading h3 {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 455px) {
+    .about-inner-content {
+
+        width: 385px;
+
+    }
+}
+
+@media (max-width: 430px) {
+
+    .about-inner-content {
+
+        width: 320px;
+    }
+}
+
+@media (max-width: 419px) {
+
+
+    .testimonial blockqoute::before,
+    .testimonial blockqoute::after {
+        display: none;
+    }
+
+    .testimonial blockqoute p {
+        padding: 5px;
+        border: 2px dashed #fff;
+    }
+}
+
+@media (max-width: 345px) {
+    
+    .about-inner-content {
+
+        width: 270px !important;
+    }
+    
+}
